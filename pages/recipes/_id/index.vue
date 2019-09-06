@@ -1,0 +1,19 @@
+<template>
+	<section class="single-recipe">
+		<h1>TITLE</h1>
+		<div>
+			<img />
+		</div>
+		<p>The recipe description.</p>
+	</section>
+</template>
+
+<style scoped>
+.single-recipe {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+</style>
